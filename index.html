@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Cajas..!!</title>
+    <style>
+        .cajas {
+            width: 100vw;
+            height: 100vh;
+            display: grid;
+            place-items: center;
+            grid-template-columns: 200px 200px 200px;
+            grid-column-gap: 100px;
+            justify-content: center;
+        }
+        .caja1 {
+            width: 200px;
+            height: 200px;
+            background-color: yellow;
+            border: 5px solid;
+            
+        }
+        .caja2 {
+            width: 200px;
+            height: 200px;
+            background-color: blue;
+            border: 5px solid;
+            display: flex;
+            justify-content: center;
+            align-items: center;   
+        }
+        .caja3 {
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            border: 5px solid;
+            display: flex;
+            justify-content: right;
+            align-items: end;
+            
+        }
+        
+        .number-1 {
+            font-size: 50px;
+        }
+        .number-2 {
+            font-size: 50px;
+        }
+        .number-3 {
+            font-size: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="cajas">
+        <div class="caja1">
+            <span class="number-1">1</span>
+        </div>
+        <div class="caja2">
+            <span class="number-2">2</span>
+        </div>
+        <div class="caja3">
+            <span class="number-3">3</span>
+        </div>
+    </div>
+</body>
+</html>
